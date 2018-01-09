@@ -3,7 +3,7 @@
     <property name="created">2018-01-09T15:33:04</property>
     <property name="ide">Ruby</property>
     <property name="ideVersion">2017.3.1.0.0</property>
-    <property name="modified">2018-01-09T15:53:58</property>
+    <property name="modified">2018-01-09T15:53:19</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
@@ -16,7 +16,7 @@
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
-    <option name="FILESTATUS_OBSOLETE" value="" />
+    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
     <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
     <option name="FILESTATUS_SWITCHED" value="c792ea" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
