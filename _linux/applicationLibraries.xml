@@ -162,6 +162,16 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/netrc-0.11.0/data" />
       </SOURCES>
     </library>
+    <library name="power_assert (v1.1.1, RVM: ruby-2.1.5) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/power_assert-1.1.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/power_assert-1.1.1/bin" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/power_assert-1.1.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/power_assert-1.1.1/bin" />
+      </SOURCES>
+    </library>
     <library name="psych (v2.0.5, RVM: ruby-2.1.5) [gem]">
       <CLASSES>
         <root url="file:///usr/share/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/psych/json" />
@@ -258,6 +268,16 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.1.5@global/gems/rvm-1.11.3.9/lib" />
+      </SOURCES>
+    </library>
+    <library name="test-unit (v3.2.7, RVM: ruby-2.1.5) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/test-unit-3.2.7/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/test-unit-3.2.7/sample" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/test-unit-3.2.7/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/test-unit-3.2.7/sample" />
       </SOURCES>
     </library>
     <library name="unf (v0.1.4, RVM: ruby-2.1.5) [gem]">
