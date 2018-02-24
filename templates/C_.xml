@@ -1,0 +1,12 @@
+<templateSet group="C#">
+  <template name="xmlctor" value="/// &lt;summary&gt;&#10;/// Initializes a new instance of the &lt;see cref=&quot;$classname$&quot;/&gt; $type$.&#10;/// &lt;/summary&gt;" description="XML Constructor Documentation" toReformat="false" toShortenFQNames="true">
+    <variable name="classname" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
+    <variable name="type" expression="&quot;class&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>

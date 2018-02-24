@@ -4,5 +4,12 @@
       <option name="valueLookupDelay" value="150" />
     </data-views>
     <general />
+    <debuggers>
+      <debugger id="dotnet_debugger">
+        <configuration>
+          <option name="needNotifyWhenStoppedInExternalCode" value="false" />
+        </configuration>
+      </debugger>
+    </debuggers>
   </component>
 </application>
