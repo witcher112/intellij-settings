@@ -1,10 +1,10 @@
 <scheme name="My Color Scheme" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0833334" />
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2018-01-09T15:47:07</property>
     <property name="ide">Rider</property>
     <property name="ideVersion">2017.3.0.0</property>
-    <property name="modified">2018-02-03T02:02:41</property>
+    <property name="modified">2018-03-05T19:32:44</property>
     <property name="originalScheme">_@user_Material Oceanic</property>
   </metaInfo>
   <font>
@@ -663,7 +663,7 @@
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="f78c6c" />
+        <option name="FOREGROUND" value="ff6089" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
