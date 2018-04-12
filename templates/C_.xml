@@ -3,6 +3,18 @@
     <variable name="classname" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
     <variable name="type" expression="&quot;class&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="Bash" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="validvaluestruct" value="public struct $NAME$&#10;{&#10;    public $TYPE$ Value { get; }&#10;&#10;    public $NAME$($TYPE$ value)&#10;    {&#10;        Value = value;&#10;    }&#10;&#10;    public string ValidationError&#10;    {&#10;        get&#10;        {&#10;            return null;&#10;        }&#10;    }&#10;&#10;    public bool IsValid =&gt; ValidationError == null;&#10;&#10;    public $NAME$? ValidOrNull =&gt; IsValid ? ($NAME$?) this : null;&#10;&#10;    public static implicit operator $NAME$($TYPE$ value)&#10;    {&#10;        return new $NAME$(value);&#10;    }&#10;&#10;    public override string ToString()&#10;    {&#10;        return Value.ToString();&#10;    }&#10;}" shortcut="ENTER" description="Struct with single value with validation logic." toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
+    <variable name="TYPE" expression="&quot;TYPE&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Bash" value="false" />
       <option name="HTML" value="false" />
       <option name="JSON" value="false" />
       <option name="OTHER" value="true" />
