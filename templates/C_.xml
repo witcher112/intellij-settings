@@ -21,4 +21,17 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="pkexception" value="public class $NAME$ : Exception&#10;{&#10;    private static string GetMesssage($PARAMS$) =&gt;&#10;        $&quot;$MESSAGE$&quot;;&#10;&#10;    public $NAME$($PARAMS$, Exception inner = null)&#10;        : base(GetMesssage($PARAMS_USAGE$), inner)&#10;    {&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS_USAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Bash" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
