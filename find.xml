@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="Selected Files And Folders" />
     <option name="defaultScopeName" value="Selected Files And Folders" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Selected Files And Folders" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
