@@ -25,5 +25,7 @@
     <entry key="mac.editor.thumb.default.fill.max" value="150" />
     <entry key="mac.editor.thumb.darcula.fill.min" value="102" />
     <entry key="mac.editor.thumb.darcula.fill.max" value="163" />
+    <entry key="actionSystem.fix.alt.gr" value="false" />
+    <entry key="ide.tree.horizontal.default.autoscrolling" value="false" />
   </component>
 </application>
