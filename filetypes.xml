@@ -1,8 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping ext="function" type="JSON" />
       <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
+      <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping ext="gpx" type="XML" />
     </extensionMap>
   </component>
