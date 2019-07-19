@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="struct" type="JSON" />
+      <mapping ext="interface" type="JSON" />
       <mapping ext="function" type="JSON" />
       <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
